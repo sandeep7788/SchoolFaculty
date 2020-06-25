@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawSelectorOnTop="true"
+    app:cardCornerRadius="0sp"
+    app:cardElevation="0sp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="?android:attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <RelativeLayout
+            android:id="@+id/icon_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="0dp"
+                android:id="@+id/icon"
+                tools:src="@drawable/ic_launcher_round"
+                android:layout_width="74dp"
+                android:layout_height="52dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="invisible"
+            tools:visibility="visible"
+            android:id="@+id/title_layout"
+            android:gravity="start"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/icon_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:id="@+id/title"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tools:text="Title"
+                tools:drawableRight="@drawable/ic_account_circle_black_24dp"
+                android:drawablePadding="8dp"
+                android:textIsSelectable="false" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
