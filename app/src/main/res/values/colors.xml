@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#6200EE</color>
+<color name="colorPrimaryDark">#3700B3</color>
+<color name="colorAccent">#03DAC5</color>
+
+<!-- Screens background color-->
+<color name="bg_screen1">#f64c73</color>
+<color name="bg_screen2">#20d2bb</color>
+<color name="bg_screen3">#3395ff</color>
+<color name="bg_screen4">#c873f4</color>
+
+<!-- dots inactive colors -->
+<color name="dot_dark_screen1">#d1395c</color>
+<color name="dot_dark_screen2">#14a895</color>
+<color name="dot_dark_screen3">#2278d4</color>
+<color name="dot_dark_screen4">#a854d4</color>
+<color name="dot_light_screen1">#f98da5</color>//headline //side menu fees //fess list title change
+<color name="dot_light_screen2">#8cf9eb</color>
+<color name="dot_light_screen3">#93c6fd</color>
+<color name="dot_light_screen4">#e4b5fc</color>
+<color name="tw">#a0ffffff</color>
+<color name="tb">#a0000000</color>
+    <color name="tr">#a0d1395c</color>
+    <color name="to">#a0f98da5</color>
+    <color name="tg">#a014a895</color>
+    <color name="textcardColor">#3f3f3f</color>
+    <color name="start_color">#29B6F6</color>
+    <color name="end_color">#4FC3F7</color>
+    <color name="white">#FFFFFF</color>
+    <!--<color name="app">#0b5345</color>-->
+<!--<color name="app">#544395</color>-->
+<color name="app">#442990</color>
+    <color name="app1">#a2bfbd</color>
+    <color name="app2">#d6d4af</color>
+    <color name="app3">#ffffff</color>
+    <color name="app4">#fd6b3a</color>
+<!--    <color name="app">#0A0FFF</color>-->
+<!--    <color name="app1">#063d3f</color>-->
+    <color name="c1">#0A162E</color>
+    <color name="c2">#f6f6f6</color>
+    <color name="a1">#bca2ae</color>
+    <color name="a2">#8ecdd8</color>
+    <color name="a3">#fe706a</color>
+    <color name="a4">#e1e7ea</color>
+    <color name="a5">#ffffff</color>
+
+<array name="array_dot_active">
+    <item>@color/dot_light_screen1</item>
+    <item>@color/dot_light_screen2</item>
+    <item>@color/dot_light_screen3</item>
+    <item>@color/dot_light_screen4</item>
+</array>
+
+<array name="array_dot_inactive">
+    <item>@color/dot_dark_screen1</item>
+    <item>@color/dot_dark_screen2</item>
+    <item>@color/dot_dark_screen3</item>
+    <item>@color/dot_dark_screen4</item>
+</array>
+</resources>

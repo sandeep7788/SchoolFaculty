@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l_video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:minHeight="150dp"
+    android:background="#f2f4f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="9dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:divider="@android:color/white"
+            android:dividerPadding="7dp"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/l1"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="#f2f4f5"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="77dp"
+                    android:layout_height="77dp"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/ic_launcher_round"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:id="@+id/t_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:gravity="center"
+                    android:text="Home Work"
+                    android:textColor="#151528"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="9dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/t_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Home Work"
+                    android:textColor="#151528"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/t_enddate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="9dp"
+                    android:paddingRight="4dp"
+                    android:gravity="right|bottom"
+                    android:textColor="#151528"
+                    android:textSize="13dp"
+                    android:layout_gravity="bottom|center"
+                    android:foregroundGravity="bottom"
+                    android:layout_marginBottom="3dp"
+                    android:text="00:00:00"
+                    android:layout_marginEnd="4dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

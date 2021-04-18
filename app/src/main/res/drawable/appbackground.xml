@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:top="100dp"/>
+    <corners android:radius="0dp"
+        android:topRightRadius="25dp"/>
+    <gradient android:startColor="@color/app"
+        android:endColor="@color/app"
+        android:angle="@integer/default_circle_indicator_orientation"/>
+</shape>
